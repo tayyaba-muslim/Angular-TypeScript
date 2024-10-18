@@ -4,9 +4,11 @@ console.log(name + "\n");
 console.log(name.indexOf("r"));
 console.log("arr of object \n");
 var arr = [];
+var names = "tayyaba";
+var ages = 20;
 var obj = {
-    name: "tayyaba",
-    age: 20
+    name: names,
+    age: ages
 };
 arr.push(obj);
 console.log(arr + "\n");
